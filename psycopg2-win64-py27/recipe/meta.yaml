@@ -3,7 +3,7 @@ package:
   version: 2.6.1
 
 source:
-  git_url: https://github.com/DTOcean/psycopg2-win64-py27.git [win64 and py27]
+  git_url: https://github.com/DTOcean/psycopg2-win64-py27.git # [win64 and py27]
   git_rev: v2.6.1
 
 build:
