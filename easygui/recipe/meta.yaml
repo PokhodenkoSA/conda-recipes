@@ -1,0 +1,24 @@
+package:
+  name: easygui
+  version: !!str 0.98.0
+
+source:
+  fn: easygui-0.98.0.tar.gz
+  url: https://pypi.python.org/packages/66/ab/7630640eda47e3c22f1ee6212aa5bc7a8383895febe538dbc558124a4eac/easygui-0.98.0.tar.gz
+  md5: bbb19db80092613d9fa76aa4b667e95d
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+
+test:
+  imports:
+    - easygui
+
+about:
+  home: https://github.com/robertlugg/easygui
+  license: BSD
+  summary: EasyGUI is a module for very simple, very easy GUI programming in Python

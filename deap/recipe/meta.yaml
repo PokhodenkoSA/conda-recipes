@@ -1,0 +1,24 @@
+package:
+  name: deap
+  version: !!str 1.0.2
+
+source:
+  fn: deap-1.0.2.post2.tar.gz
+  url: https://pypi.python.org/packages/source/d/deap/deap-1.0.2.post2.tar.gz
+  md5: ccf5ed7562e4d6236c9416e3b5a9d941
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+
+test:
+  imports:
+    - deap
+
+about:
+  home: https://www.github.com/deap
+  license: LGPL
+  summary: Distributed Evolutionary Algorithms in Python

@@ -1,0 +1,26 @@
+package:
+  name: cma
+  version: !!str 1.1.06
+
+source:
+  fn: cma-1.1.06.tar.gz
+  url: https://pypi.python.org/packages/c5/92/00c83a5e76b8941426b2bab66a035870b94fd83bb42db3d083d273a7fbdb/cma-1.1.06.tar.gz
+  md5: dd1e9365f87dad3f0def0fa7c6c03220
+
+requirements:
+  build:
+    - python
+    - numpy
+
+  run:
+    - python
+    - numpy
+
+test:
+  imports:
+    - cma
+
+about:
+  home: https://www.lri.fr/~hansen/cmaes_inmatlab.html
+  license: BSD
+  summary: Covariance Matrix Adaptation Evolution Strategy for non-linear numerical optimization in Python
