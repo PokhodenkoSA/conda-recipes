@@ -40,7 +40,7 @@ requirements:
     - pandas
     - scipy
     - shapely
-    - polite >=0.9
+    - polite 0.9.*
     - pyopengl
     - pyqt 4.11.4
     - scikit-learn

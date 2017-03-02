@@ -27,7 +27,7 @@ requirements:
 
   run:
     - python
-    - dtocean-logistics >=1.0
+    - dtocean-logistics 1.0.0
     - numpy
     - pandas
 

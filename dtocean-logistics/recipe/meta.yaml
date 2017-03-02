@@ -30,7 +30,7 @@ requirements:
     - networkx
     - numpy
     - pandas
-    - polite >=0.9
+    - polite 0.9.*
     - utm
     - xlrd
 
