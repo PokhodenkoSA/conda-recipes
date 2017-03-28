@@ -1,11 +1,11 @@
 package:
   name: dtocean-app
-  version: 1.0.2
+  version: 1.0.3
 
 source:
   # from git:
   git_url: https://github.com/DTOcean/dtocean-app.git
-  git_rev: v1.0.2
+  git_rev: v1.0.3
   
 build:
   entry_points:
@@ -29,7 +29,7 @@ requirements:
 
   run:
     - python
-    - dtocean-core 1.0.1
+    - dtocean-core 1.0.2
     - matplotlib
     - numpy
     - pandas >=0.18
