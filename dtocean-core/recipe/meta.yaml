@@ -1,11 +1,11 @@
 package:
   name: dtocean-core
-  version: 1.0.2
+  version: 1.1.0.dev0
 
 source:
   # from git:
   git_url: https://github.com/DTOcean/dtocean-core.git
-  git_rev: v1.0.2
+  git_rev: v1.1.0.dev0
   
 build:
   entry_points:
