@@ -1,11 +1,11 @@
 package:
   name: dtocean-core
-  version: 1.1.0.dev0
+  version: 1.1.dev2
 
 source:
   # from git:
   git_url: https://github.com/DTOcean/dtocean-core.git
-  git_rev: v1.1.0.dev0
+  git_rev: v1.1.dev2
   
 build:
   entry_points:
@@ -25,10 +25,10 @@ requirements:
   build:
     - python
     - setuptools
-    - aneris 0.9.*
+    - aneris 0.10.0.dev0
 
   run:
-    - aneris 0.9.1
+    - aneris 0.10.0.dev0
     - basemap
     - dtocean-hydrodynamics 1.0.0
     - dtocean-electrical 1.0.2
