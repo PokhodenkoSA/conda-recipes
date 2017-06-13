@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$PYTHON setup.py install || exit 1
+$PYTHON setup.py conda || exit 1
 
 # Add more build steps here, if they are necessary.
 
