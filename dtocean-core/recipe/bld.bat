@@ -1,5 +1,5 @@
 python setup.py bootstrap
-python setup.py conda --single-version-externally-managed --record=record.txt
+python setup.py install --single-version-externally-managed --record=record.txt
 if errorlevel 1 exit 1
 
 :: Add more build steps here, if they are necessary.
