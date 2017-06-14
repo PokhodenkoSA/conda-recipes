@@ -1,11 +1,11 @@
 package:
   name: polite
-  version: 0.10.dev0
+  version: 0.10.dev1
 
 source:
   # from git:
   git_url: https://github.com/DTOcean/polite.git
-  git_rev: v0.10.dev0
+  git_rev: v0.10.dev1
 
 build:
   entry_points:
