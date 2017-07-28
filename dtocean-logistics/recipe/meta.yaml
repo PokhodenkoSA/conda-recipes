@@ -1,11 +1,11 @@
 package:
   name: dtocean-logistics
-  version: 1.0.0
+  version: 1.1.dev0
 
 source:
   # from git:
   git_url: https://github.com/DTOcean/dtocean-logistics.git
-  git_rev: v1.0.0
+  git_rev: v1.1.dev0
 
 build:
 #   entry_points:
@@ -28,9 +28,11 @@ requirements:
   run:
     - geopy
     - networkx
+    - matplotlib
     - numpy
     - pandas
     - polite 0.9.*
+    - scipy
     - utm
     - xlrd
 
