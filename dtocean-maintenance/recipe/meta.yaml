@@ -1,11 +1,11 @@
 package:
   name: dtocean-maintenance
-  version: 1.0.0
+  version: 1.1.dev0
 
 source:
   # from git:
   git_url: https://github.com/DTOcean/dtocean-maintenance.git
-  git_rev: v1.0.0
+  git_rev: v1.1.dev0
 
 build:
 #  entry_points:
@@ -27,7 +27,8 @@ requirements:
 
   run:
     - python
-    - dtocean-logistics 1.0.0
+    - dtocean-logistics 1.1.dev1
+    - dtocean-reliability 1.1.dev0
     - numpy
     - pandas
 
