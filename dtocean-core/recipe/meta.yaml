@@ -40,6 +40,7 @@ requirements:
     - dtocean-environment 1.0.0
     - geoalchemy2
     - matplotlib
+    - monotonic
     - netcdf4
     - numpy 1.10.1
     - openpyxl
@@ -52,6 +53,7 @@ requirements:
     - python-dateutil
     - pyyaml
     - shapely
+    - utm
     - xarray
     - xlrd
     - xlwt
