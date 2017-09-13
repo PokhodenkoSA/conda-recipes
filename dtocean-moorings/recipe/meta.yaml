@@ -28,7 +28,7 @@ requirements:
   run:
     - python
     - numpy
-    - polite 0.9.*
+    - polite >=0.9
     - scipy
 
 test:
