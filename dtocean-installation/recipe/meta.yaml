@@ -30,7 +30,7 @@ requirements:
     - dtocean-logistics 1.0.0
     - numpy
     - pandas
-    - polite 0.9.*
+    - polite >=0.9
 
 test:
   # Python imports
