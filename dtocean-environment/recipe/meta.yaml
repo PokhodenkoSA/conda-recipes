@@ -30,6 +30,7 @@ requirements:
     - numpy
     - pandas
     - polite >=0.9
+    - scipy
     - shapely
 
 test:
