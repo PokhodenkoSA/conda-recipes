@@ -1,0 +1,31 @@
+package:
+  name: contours
+  version: !!str 0.0.2
+
+source:
+  fn: contours-0.0.2.tar.gz
+  url: https://files.pythonhosted.org/packages/55/3f/3df63de14b03a4421c50e6a7653da12118690e86bb391befb5c8bbb7e1f2/contours-0.0.2.tar.gz
+  sha256: 31098980739adc76ab38e03cb987906935b2b45d24a2004e020c60509d6eb70e
+
+requirements:
+  build:
+    - python
+    - future
+    - matplotlib >=1.5.0
+
+  run:
+    - python
+    - enum34
+    - future
+    - matplotlib >=1.5.0
+    - numpy >=1.4.0
+    - shapely >=1.2.10
+
+test:
+  imports:
+    - contours
+
+about:
+  home: https://github.com/ccarocean/python-contours
+  license: MIT
+  summary: Contour calculation with matplotlib

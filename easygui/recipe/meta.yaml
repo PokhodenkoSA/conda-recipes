@@ -1,11 +1,11 @@
 package:
   name: easygui
-  version: !!str 0.98.0
+  version: !!str 0.98.1
 
 source:
-  fn: easygui-0.98.0.tar.gz
-  url: https://pypi.python.org/packages/66/ab/7630640eda47e3c22f1ee6212aa5bc7a8383895febe538dbc558124a4eac/easygui-0.98.0.tar.gz
-  md5: bbb19db80092613d9fa76aa4b667e95d
+  fn: easygui-0.98.1.tar.gz
+  url: https://files.pythonhosted.org/packages/35/08/f45f8d331010f321df793c9ef72137d674efb2914e6ce7d0fd14a1b4383a/easygui-0.98.1.tar.gz
+  sha256: dbc89afbb1aca83830ea4af568eb2491654e16b2706a14d040757fdf1fafbbfe
 
 requirements:
   build:

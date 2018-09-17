@@ -1,11 +1,11 @@
 package:
   name: pypower
-  version: !!str 5.0.1
+  version: !!str 5.1.4
 
 source:
-  fn: PYPOWER-5.0.1.tar.gz
-  url: https://pypi.python.org/packages/10/b1/caa79c9eb9eaec2d975c7597d42d7defa0af3035a48cc8bde603dd0059bb/PYPOWER-5.0.1.tar.gz
-  md5: cec0629c54a2c1d8c3f6ec6f232eaa49
+  fn: PYPOWER-5.1.4.tar.gz
+  url: https://files.pythonhosted.org/packages/ec/e2/2e3dbb314f08ff0222aba90ada335f18bc3e7a022654d949b0d43f027b88/PYPOWER-5.1.4.tar.gz
+  sha256: a3e290111d344190713f61b4d85338b97dad42421d94521bf5b7bb2f080270b5
 
 requirements:
   build:
@@ -14,6 +14,7 @@ requirements:
 
   run:
     - python
+    - numpy
     - scipy
 
 test:
