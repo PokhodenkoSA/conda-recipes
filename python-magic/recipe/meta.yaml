@@ -1,0 +1,28 @@
+package:
+  name: python-magic
+  version: !!str 0.4.14
+  
+source:
+  git_url: https://github.com/DTOcean/python-magic-win32 # [win32]
+  git_url: https://github.com/DTOcean/python-magic-win64 # [win64]
+  git_rev: HEAD
+  
+build:
+  number: 1
+  skip: True  # [not win]
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+    
+test:
+  imports:
+    - magic
+
+about:
+  home: https://github.com/DTOcean/python-magic-win64
+  license: MIT
+  summary: A python wrapper for libmagic
