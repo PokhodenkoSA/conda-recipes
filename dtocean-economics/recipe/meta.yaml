@@ -47,7 +47,7 @@ test:
     # - nose
 
 about:
-  home: https://github.com/DTOcean/dtocean-economics
+  home: https://github.com/PokhodenkoSA/dtocean-economics
   license: GPLv3
   license_file: LICENSE.txt
   summary: Economics module for the DTOcean tools
